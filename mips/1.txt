@@ -1,0 +1,82 @@
+.data  # Tells assembler we're in the data segment
+a : .word  0
+temp1 : .word  0
+temp2 : .word  0
+temp3 : .word  0
+temp4 : .word  0
+.text
+main:
+add : 
+addi $sp, $sp, -4 
+sw $a0 , 0($sp) 
+addi $sp, $sp, -4 
+sw $t0 , 0($sp) 
+addi $sp, $sp, -4 
+sw $t1 , 0($sp) 
+addi $sp, $sp, -4 
+sw $t2 , 0($sp) 
+
+li $a0 5
+sw $a0 temp1
+
+li $a0 3
+sw $a0 temp2
+
+lw $a0 , temp1
+lw $t0 , temp2
+add $a0 , $a0 , $t0
+sw $a0 temp3
+
+lw $a0 temp3
+sw $a0 a
+
+lw $a0 , 0($sp) 
+addi $sp, $sp, 4 
+lw $t0 , 0($sp) 
+addi $sp, $sp, 4 
+lw $t1 , 0($sp) 
+addi $sp, $sp, 4 
+lw $t2 , 0($sp) 
+addi $sp, $sp, 4 
+jr $ra 
+
+
+
+Main : 
+addi $sp, $sp, -4 
+sw $a0 , 0($sp) 
+addi $sp, $sp, -4 
+sw $t0 , 0($sp) 
+addi $sp, $sp, -4 
+sw $t1 , 0($sp) 
+addi $sp, $sp, -4 
+sw $t2 , 0($sp) 
+
+li $a0 5
+sw $a0 temp1
+
+li $a0 3
+sw $a0 temp2
+
+lw $a0 , temp1
+lw $t0 , temp2
+add $a0 , $a0 , $t0
+sw $a0 temp3
+
+lw $a0 temp3
+sw $a0 a
+
+
+lw $a0 , 0($sp) 
+addi $sp, $sp, 4 
+lw $t0 , 0($sp) 
+addi $sp, $sp, 4 
+lw $t1 , 0($sp) 
+addi $sp, $sp, 4 
+lw $t2 , 0($sp) 
+addi $sp, $sp, 4 
+jr $ra 
+
+li $v0 , 1 
+syscall
+jr $ra

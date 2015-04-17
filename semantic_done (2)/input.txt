@@ -1,0 +1,37 @@
+int addfunc(int a, int e)
+{
+	int aaaa = a + e;
+	return aaaa;
+}
+int addfunction(int ab, int eb,int y)
+{
+	int aaaab = ab * eb * y;
+	return aaaab;
+
+}
+
+int heythere(int mn,int mnn,int mnnn)
+{
+	int vvv = mn + mnn + mnnn + addfunction(1 , 2 , 2);
+	return vvv;
+}
+
+
+Main
+{
+
+	  int x,z,v;
+	  x = 20;
+	  int p = addfunc(5, 1);
+	  int je = addfunction(4, 1,7);
+	  quickout<<p;
+	  quickout<<je;
+	  for(int i = 0 ;i< 7; i++)
+	  {
+	  	quickout<<i;
+	  }
+	  quickout<<addfunction(4,1,7)*addfunc(5,1);
+	  quickout<<heythere(4,5,6);
+}
+
+
