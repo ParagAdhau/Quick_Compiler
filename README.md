@@ -1,6 +1,5 @@
-# Quick_Compiler
-Quick_Compiler
---------------------------------------------The_Quick_Compiler-----------------------------------------
+Best Viewd in Raw form
+---------------------------------------------The_Quick_Compiler-----------------------------------------
 
 Group Members : Parag Adhau     ( paradhau1803@gmail.com)
                 Soham Kondalkar ( sohamk94@gmail.com)
@@ -45,6 +44,8 @@ $bison mips.y -d -v
 $g++ mips.tab.c lex.yy.cc -lfl -std=c++11
 $./a.out
 
+---------------------------------------------------------------------------------------------------------------
+Simulation : 
 This should output the Mips code on the terminal.
 You can run this mips code on a mips simulator. We used Qtspim. It can be found here : 
 http://ecs-network.serv.pacific.edu/ecpe-170/tutorials/qtspim-tutorial
