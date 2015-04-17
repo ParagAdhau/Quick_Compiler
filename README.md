@@ -44,5 +44,6 @@ $./a.out
 ---------------------------------------------------------------------------------------------------------------
 Simulation : 
 This should output the Mips code on the terminal.
-You can run this mips code on a mips simulator. We used Qtspim. It can be found here : 
+You can run this mips code on a mips simulator. We used Qtspim.
+A tutorial can be found here : 
 http://ecs-network.serv.pacific.edu/ecpe-170/tutorials/qtspim-tutorial
