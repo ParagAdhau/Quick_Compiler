@@ -1,7 +1,7 @@
 Best Viewd in Raw form
 ---------------------------------------------The_Quick_Compiler-----------------------------------------
 
-Group Members : Parag Adhau     ( paradhau1803@gmail.com)
+Group Members : Parag Adhau     ( paragadhau1803@gmail.com)
                 Soham Kondalkar ( sohamk94@gmail.com)
              	Gaurav Madhuker
              
