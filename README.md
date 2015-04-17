@@ -17,3 +17,4 @@ It supports :
 7.There are 2 supported data types = string ( char ) and integeres ( int )
 8.Input-Output statements : quickin>>variable and quickout<<variable_or_complex_epression
 9.Arrays are also supported (Only One-dimensional arrays are supported)
+f
