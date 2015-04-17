@@ -16,8 +16,6 @@ It supports :
 7.There are 2 supported data types = string ( char ) and integeres ( int )
 8.Input-Output statements : quickin>>variable and quickout<<variable_or_complex_epression
 9.Arrays are also supported (Only One-dimensional arrays are supported)
-
-
 ------------------------------------------------------------------------------------------------------------------
 Work Flow
 Input should be placed in input.txt in the semantic_done(2) folder.
@@ -26,8 +24,6 @@ $flex quick.l
 $bison quick.y -d -v
 $g++ quick.tab.c lex.yy.cc -lfl -std=c++11
 $./a.out
-
-
 
 By running the above commands you just did the lexical and semantic checking and generated the three address code for 
 your input file.If any error occurs then it will shown on the terminal.
@@ -43,7 +39,6 @@ $flex mips.l
 $bison mips.y -d -v
 $g++ mips.tab.c lex.yy.cc -lfl -std=c++11
 $./a.out
-
 ---------------------------------------------------------------------------------------------------------------
 Simulation : 
 This should output the Mips code on the terminal.
