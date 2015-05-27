@@ -1,9 +1,9 @@
 Best Viewd in Raw form
 ---------------------------------------------The_Quick_Compiler-----------------------------------------
 
-Group Members : Parag Adhau     ( paragadhau1803@gmail.com)
-                Soham Kondalkar ( sohamk94@gmail.com)
-             	Gaurav Madhuker
+Group Members : Parag Adhau     ( parag.adhau.9 , paragadhau1803@gmail.com)
+                Soham Kondalkar ( soham.kondalkar , sohamk94@gmail.com)
+             	Gaurav Madhuker ( gaurav.madhuker )
              
 Our language : Quick can be said to a subset of C.
 It supports :  
